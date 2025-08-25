@@ -6,7 +6,7 @@ go 1.24.6
 replace go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.61.0 => go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.58.0
 
 require (
-	fortio.org/fortio v1.71.0
+	fortio.org/fortio v1.71.1
 	fortio.org/log v1.17.2
 	github.com/Masterminds/semver/v3 v3.4.0
 	github.com/andybalholm/brotli v1.2.0
@@ -38,17 +38,17 @@ require (
 	github.com/google/go-cmp v0.7.0
 	github.com/google/go-containerregistry v0.20.6
 	github.com/miekg/dns v1.1.68
-	github.com/ohler55/ojg v1.26.8
+	github.com/ohler55/ojg v1.26.9
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.23.0
 	github.com/prometheus/client_model v0.6.2
 	github.com/prometheus/common v0.65.0
 	github.com/quic-go/quic-go v0.54.0
-	github.com/replicatedhq/troubleshoot v0.121.2
+	github.com/replicatedhq/troubleshoot v0.121.3
 	github.com/shopspring/decimal v1.4.0
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/pflag v1.0.7
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.0
 	github.com/telepresenceio/watchable v0.0.0-20220726211108-9bb86f92afa7
 	github.com/tetratelabs/func-e v1.2.0
 	github.com/tsaarni/certyaml v0.10.0
@@ -67,17 +67,17 @@ require (
 	golang.org/x/net v0.43.0
 	gomodules.xyz/jsonpatch/v2 v2.5.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20250728155136-f173205681a0
-	google.golang.org/grpc v1.74.2
+	google.golang.org/grpc v1.75.0
 	google.golang.org/grpc/security/advancedtls v1.0.0
-	google.golang.org/protobuf v1.36.7
+	google.golang.org/protobuf v1.36.8
 	gopkg.in/yaml.v3 v3.0.1
-	helm.sh/helm/v3 v3.18.4
-	k8s.io/api v0.33.3
-	k8s.io/apiextensions-apiserver v0.33.3
-	k8s.io/apimachinery v0.33.3
-	k8s.io/apiserver v0.33.3
-	k8s.io/cli-runtime v0.33.3
-	k8s.io/client-go v0.33.3
+	helm.sh/helm/v3 v3.18.5
+	k8s.io/api v0.33.4
+	k8s.io/apiextensions-apiserver v0.33.4
+	k8s.io/apimachinery v0.33.4
+	k8s.io/apiserver v0.33.4
+	k8s.io/cli-runtime v0.33.4
+	k8s.io/client-go v0.33.4
 	k8s.io/klog/v2 v2.130.1
 	k8s.io/kube-openapi v0.0.0-20250318190949-c8a335a9a2ff
 	k8s.io/kubectl v0.33.3
@@ -223,7 +223,7 @@ require (
 	github.com/go-critic/go-critic v0.13.0 // indirect
 	github.com/go-errors/errors v1.4.2 // indirect
 	github.com/go-gorp/gorp/v3 v3.1.0 // indirect
-	github.com/go-jose/go-jose/v4 v4.1.0 // indirect
+	github.com/go-jose/go-jose/v4 v4.1.1 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect
 	github.com/go-openapi/analysis v0.23.0 // indirect
@@ -407,7 +407,7 @@ require (
 	github.com/segmentio/asm v1.2.0 // indirect
 	github.com/segmentio/encoding v0.5.3 // indirect
 	github.com/segmentio/ksuid v1.0.4 // indirect
-	github.com/shirou/gopsutil/v4 v4.25.6 // indirect
+	github.com/shirou/gopsutil/v4 v4.25.7 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/sivchari/containedctx v1.0.3 // indirect
 	github.com/sonatard/noctx v0.3.5 // indirect
@@ -429,8 +429,8 @@ require (
 	github.com/tetratelabs/wazero v1.9.0 // indirect
 	github.com/timakin/bodyclose v0.0.0-20241222091800-1db5c5ca4d67 // indirect
 	github.com/timonwong/loggercheck v0.11.0 // indirect
-	github.com/tklauser/go-sysconf v0.3.12 // indirect
-	github.com/tklauser/numcpus v0.6.1 // indirect
+	github.com/tklauser/go-sysconf v0.3.15 // indirect
+	github.com/tklauser/numcpus v0.10.0 // indirect
 	github.com/tomarrell/wrapcheck/v2 v2.11.0 // indirect
 	github.com/tommy-muehle/go-mnd/v2 v2.5.1 // indirect
 	github.com/tsaarni/x500dn v1.0.0 // indirect
@@ -443,9 +443,6 @@ require (
 	github.com/vishvananda/netlink v1.3.1 // indirect
 	github.com/vishvananda/netns v0.0.5 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
-	github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb // indirect
-	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
-	github.com/xeipuuv/gojsonschema v1.2.0 // indirect
 	github.com/xen0n/gosmopolitan v1.3.0 // indirect
 	github.com/xlab/treeprint v1.2.0 // indirect
 	github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e // indirect
@@ -482,7 +479,7 @@ require (
 	golang.org/x/crypto v0.41.0 // indirect
 	golang.org/x/crypto/x509roots/fallback v0.0.0-20250406160420-959f8f3db0fb // indirect
 	golang.org/x/exp/typeparams v0.0.0-20250620022241-b7579e27df2b // indirect
-	golang.org/x/mod v0.26.0 // indirect
+	golang.org/x/mod v0.27.0 // indirect
 	golang.org/x/oauth2 v0.30.0 // indirect
 	golang.org/x/sync v0.16.0 // indirect
 	golang.org/x/sys v0.35.0 // indirect
@@ -498,8 +495,8 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	honnef.co/go/tools v0.6.1 // indirect
-	k8s.io/component-base v0.33.3 // indirect
-	k8s.io/metrics v0.33.3 // indirect
+	k8s.io/component-base v0.33.4 // indirect
+	k8s.io/metrics v0.33.4 // indirect
 	mvdan.cc/gofumpt v0.8.0 // indirect
 	mvdan.cc/unparam v0.0.0-20250301125049-0df0534333a4 // indirect
 	oras.land/oras-go/v2 v2.6.0 // indirect
