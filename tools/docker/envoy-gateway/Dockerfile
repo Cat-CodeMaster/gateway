@@ -1,4 +1,4 @@
-FROM busybox@sha256:f9a104fddb33220ec80fc45a4e606c74aadf1ef7a3832eb0b05be9e90cd61f5f AS source
+FROM busybox@sha256:2f590fc602ce325cbff2ccfc39499014d039546dc400ef8bbf5c6ffb860632e7 AS source
 # Create the data directory for eg
 RUN mkdir -p /var/lib/eg && chmod -R 0777 /var/lib/eg
 
